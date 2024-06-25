@@ -16,7 +16,7 @@ nav {
     background-color: white;
     }  
    
-   .nav__logo{
+   .logo{
     font-size: 2rem;
     font-weight: 600;
     float: inline-start;
@@ -59,7 +59,7 @@ nav {
 
 
       @media (max-width: 768px) {
-        .nav__logo {
+        .logo {
           margin-right: auto;
         }
       
