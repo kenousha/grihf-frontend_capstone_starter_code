@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none
+}
+.container {
+    max-width: 900px;
+    margin: 2% 38rem;
+    padding: 40px;
+    overflow: hidden;
+  }
+  .signup-text {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .signup-text1 {
+    text-align: center;
+    margin: 1rem;
+  }
+  .signup-text1  span{
+    color: #3c79a7;
+    font-weight: 600;
+    cursor: pointer;
+  }
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-group {
+    margin-bottom: 20px;
+  }
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+.password-visibility{
+    position: relative;
+    top: -39px;
+    left: 92%;
+    cursor: pointer;
+    font-size:17px;
+  }
