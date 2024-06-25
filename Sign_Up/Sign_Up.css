@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 10%;
+    overflow: hidden;
+  }
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.password-visibility{
+    position: relative;
+    top: -39px;
+    left: 92%;
+    cursor: pointer;
+    font-size:17px;
+  }
