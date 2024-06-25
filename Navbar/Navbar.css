@@ -22,7 +22,7 @@ nav {
     float: inline-start;
     }
 
-  .nav__right {
+  .menu {
     list-style: none;
     display: flex;
     margin: 0;
@@ -30,7 +30,7 @@ nav {
     }
 
 
-  .nav__link a {
+  .item a {
     padding: 0.25rem;
     margin: 20px;
     font-size: 1.05rem;
@@ -38,7 +38,7 @@ nav {
     color: black;
     }
 
-  .nav__link a:hover {
+  .item a:hover {
     color: #3685fb;
     }
 
@@ -57,24 +57,20 @@ nav {
     color: white;
     }
 
-    
+
       @media (max-width: 768px) {
         .nav__logo {
           margin-right: auto;
         }
       
-        .nav__icon {
-          display: block;
-        }
-      
-        .nav__links {
+        .menu {
           display: none;
           flex-direction: column;
           align-items: flex-start;
           gap: 0.5rem;
         }
       
-        .nav__links.active {
+        .menu.active {
           display: flex;
           position: absolute;
           top: 100%;
