@@ -11,14 +11,14 @@
             <div class="signup-text">
                 <h1>Sign Up</h1>
             </div>
-            <div class="signup-text1">Already a member? 
-            <span><a href="../Login/Login.html"> Login</a></span>
+            <div class="already-member">Already a member? 
+            <a href="../Login/Login.html"><span> Login</span></a>
             </div>
         <form>
 
-        <div class="form-select">
+        <div class="form-group">
             <label for="role">Role</label>
-            <select id="role" name="role">
+            <select required id="role" name="role">
             <option value="" aria-describedby="Select your role">-Select your role-</option>
             <option value="dr" aria-describedby="Doctor">Doctor</option>
             <option value="patient" aria-describedby="patient">Patient</option>
@@ -45,8 +45,8 @@
             <input type="password" name="password" id="password" required class="form-control" placeholder="Enter your password" aria-describedby="Password inbput box" />
         </div>
         <div class="btn-group">
-            <button type="submit" class="btn btn-primary mb-2 mr-1 waves-effect waves-light">Submit</button>
-            <button type="reset" class="btn btn-danger mb-2 waves-effect waves-light">Reset</button>
+            <button type="submit" class="btn submit-btn">Submit</button>
+            <button type="reset" class="btn reset-btn">Reset</button>
         </div>
         </form>
     </div>
